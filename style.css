@@ -1,0 +1,89 @@
+* {
+				padding: 0;
+				margin: 0;
+				box-sizing: border-box;
+}
+body {
+				height: 100vh;
+				background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('orsrc62739.jpg');
+				background-repeat: no-repeat;
+				background-size: 150% 100%;
+				color: #fff;
+				text-align: center;
+				padding: 20% 10px;
+				font-family: san-serif;
+}
+img {
+	width: 100%;
+}
+h1.time h2.date {
+				font-family: monospace;
+				font-weight: lighter;
+}
+h1.time {
+				font-family: monospace;
+				font-size: 5.8rem;
+				font-weight: 100;
+}
+h2.date {
+				font-family: monospace;
+				font-size: 1.1rem;
+				font-weight: lighter;
+}
+svg {
+				fill: #fff;
+}
+div.print {
+				position: fixed;
+				bottom: 10px;
+				right: 50%;
+				transform: translate(50%,-50%);
+				padding: 9px;
+				background: rgba(255,255,255,0.5);
+				border-radius: 50%;
+				transition: 1s;
+}
+div.print:hover svg.bx-print {
+				
+				animation-name: burst;
+}
+div.print:hover {
+				background: #00af11;
+}
+.notification {
+	margin-top: 30px;
+}
+.notification > div {
+	background: #fff;
+	color: #000;
+	text-transform: uppercase;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 5px;
+}
+.notification > div div:first-child {
+	display: grid;
+	grid-template-columns: 25px 1fr;
+	justify-content: center;
+	align-items: center;
+}
+.notification > div div:first-child p {
+	text-align: left;
+}
+.notification > div div:last-child p {
+	text-align: center;
+	text-transform: none;
+	font-size: 1rem;
+}
+.notification > div div:last-child img {
+	border-radius: 5px;
+}
+.notification > div div:last-child {
+	display: grid;
+	grid-template-columns: 70px 1fr;
+	justify-content: center;
+	align-items: center;
+}
+.notification > div div:last-child img {
+	background: #000;
+}
